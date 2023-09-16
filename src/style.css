@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Para centralizar verticalmente */
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    to right top,
+    #e1b1ee,
+    #e4c6f6,
+    #e9dafb,
+    #f2edfe,
+    #ffffff
+  );
+}
+
+h1 {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  color: #aa1c65;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 3%;
+}
+
+#botaoFixo {
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  margin-top: 5%;
+}
+#botaoTeleporte {
+  position: absolute;
+  background-color: #ff6961;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  margin-top: 5%;
+}
+
+#botaoFixo:hover {
+  cursor: pointer;
+}
